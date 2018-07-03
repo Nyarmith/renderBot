@@ -1,5 +1,5 @@
 [requires]
-boost_asio/1.65.1@bincrafters/stable
+boost_asio/1.66.0@bincrafters/stable
 boost_log/1.66.0@bincrafters/stable
 boost_program_options/1.66.0@bincrafters/stable
 boost_signals2/1.66.0@bincrafters/stable
@@ -10,7 +10,7 @@ gtest/1.8.0@bincrafters/stable
 google_benchmark/1.4.0@chrahunt/testing
 jsonformoderncpp/3.1.2@vthiery/stable
 protobuf/3.5.2@bincrafters/stable
-glm/0.9.9.0@bincrafters/stable
+glm/0.9.9.0@g-truc/stable
 
 [options]
 fmt:fPIC=True
@@ -18,3 +18,4 @@ protobuf:fPIC=True
 
 [generators]
 cmake
+ycm
